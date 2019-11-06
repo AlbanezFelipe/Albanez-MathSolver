@@ -1,0 +1,9 @@
+package albanez.mathsolver;
+
+enum Calculation {
+	SIMPLE,
+	LASTTYPESIMPLE,
+	ALONEOPERATOR,
+	ALONEOPERATORWITHPLUS,
+	VARIABLESAMEFRACTIONSIDE;
+}
