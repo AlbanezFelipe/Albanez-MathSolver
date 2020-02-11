@@ -42,7 +42,7 @@ Then, create new expression for both sides.
     Expression left = new Expression("7*x^2-9*x");
     Expression right = new Expression("373");
     
-Once have expressions and variable, the equation is can be instantiate:
+Once having expressions and variable, the equation can be instantiate:
 
     //Create a Equation with expressions
     Equation e = new Equation(left, right, x);
@@ -57,7 +57,7 @@ Now running method solve, a Solution object will be receive as answer:
     //Solve
     Solution s = solver.solve();
     
-If everything works fine, the answers will be in a Double array, this codes checks if solution is valid and prints result:
+If everything works fine, the answers will be in a Double array, this code below checks if solution is valid and prints result:
 
     if(s.isRealAndFinitySolution) {
       for(double solution : s.solutions) {
